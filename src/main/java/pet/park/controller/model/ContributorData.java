@@ -1,0 +1,14 @@
+package pet.park.controller.model;
+
+import java.util.HashSet;
+import java.util.Set;
+import lombok.Data;
+import pet.park.entity.PetPark;
+
+@Data
+public class ContributorData {
+	private Long contributorId;
+	private String contributorName;
+	private String contributorEmail;
+	private Set<PetPark> petParks = new HashSet<>();
+}
