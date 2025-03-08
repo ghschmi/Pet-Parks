@@ -1,0 +1,13 @@
+{
+  "parkName": "Dogs Gone Wild",
+  "directions": "Take Park Road 18890",
+  "stateOrProvince": "FL",
+  "country": "USA",
+  "geoLocation": {
+    "latitude": "44.50045",
+    "longitude": "-111.25493" 
+  },
+  "amenities": [
+    "dog friendly", "restrooms", "fenced area", "parking area"
+  ]
+}
